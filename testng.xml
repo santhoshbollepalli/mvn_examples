@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteExample">
+
+    <listeners>
+        <!-- Add listeners here if needed -->
+    </listeners>
+
+    <test name="TestSuite">
+        <packages>
+            <package name="hrms.Tc01hrms"/>
+            <!-- Add more test classes here -->
+        </packages>
+    </test>
+
+    <!-- You can define multiple <test> tags for different test sets -->
+
+</suite>
